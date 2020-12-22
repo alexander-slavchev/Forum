@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "HDyBmmsEkMLzNzOWh+NOZw/iOx9HjrTPCGzmVXlPXuuFT9icy0g8TR5gOXErp49RFxNUkLpJxnUnvpWjJOy0fg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Web\\MyAudiA4B7Forum.Web.Infrastructure\\MyAudiA4B7Forum.Web.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\baicv\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
+    "C:\\Users\\baicv\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512"
+  ],
+  "logs": []
+}
