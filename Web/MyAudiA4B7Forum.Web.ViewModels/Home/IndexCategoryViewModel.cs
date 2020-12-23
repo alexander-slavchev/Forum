@@ -11,6 +11,8 @@ namespace MyAudiA4B7Forum.Web.ViewModels.Home
 
         public string Name { get; set; }
 
+        public string ImageUrl { get; set; }
+
         public string Url => $"/{this.Name.Replace(' ', '-')}";
     }
 }

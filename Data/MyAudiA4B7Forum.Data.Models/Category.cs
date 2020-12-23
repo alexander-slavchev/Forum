@@ -16,6 +16,8 @@
 
         public string Description { get; set; }
 
+        public string ImageUrl { get; set; }
+
         public virtual ICollection<Post> Posts { get; set; }
     }
 }

@@ -10,8 +10,8 @@ using MyAudiA4B7Forum.Data;
 namespace MyAudiA4B7Forum.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20201222171819_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20201223171738_AddImages")]
+    partial class AddImages
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -291,6 +291,9 @@ namespace MyAudiA4B7Forum.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")
