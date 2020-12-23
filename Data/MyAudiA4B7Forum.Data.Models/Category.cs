@@ -1,6 +1,7 @@
 ﻿namespace MyAudiA4Forum.Data.Models
 {
     using System.Collections.Generic;
+    using System.Diagnostics.CodeAnalysis;
     using MyAudiA4B7Forum.Data.Common.Models;
 
     public class Category : BaseDeletableModel<int>
@@ -16,6 +17,7 @@
 
         public string Description { get; set; }
 
+        [NotNull]
         public string ImageUrl { get; set; }
 
         public virtual ICollection<Post> Posts { get; set; }
