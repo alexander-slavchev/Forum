@@ -8,27 +8,27 @@ using System.Linq;
 using MyAudiA4B7Forum.Data.Common.Repositories;
 using MyAudiA4Forum.Data.Models;
 using MyAudiA4B7Forum.Services.Mapping;
+using MyAudiA4B7Forum.Services.Data;
 
 namespace MyAudiA4B7Forum.Web.Controllers
 {
     public class HomeController : BaseController
     {
-        private readonly IDeletableEntityRepository<Category> categoriesRepository;
-        public HomeController(IDeletableEntityRepository<Category> categoriesRepository)
+        private readonly ICategoriesService categoriesService;
+
+        public HomeController(ICategoriesService categoriesService)
         {
-            this.categoriesRepository = categoriesRepository;
+            this.categoriesService = categoriesService;
         }
         public IActionResult Index()
         {
             var viewModel = new IndexViewModel();
-            var categories = this.categoriesRepository.All()
-                .To<IndexCategoryViewModel>()
-                .ToList();
+            var categories = this.categoriesService.GetAll<IndexCategoryViewModel>();
             viewModel.Categories = categories;
             return this.View(viewModel);
         }
 
-        public IActionResult Privacy()
+        public IActionResult Privacy()  
         {
             return this.View();
         }
