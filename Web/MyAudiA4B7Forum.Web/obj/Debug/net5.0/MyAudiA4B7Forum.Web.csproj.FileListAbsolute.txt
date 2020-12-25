@@ -466,3 +466,4 @@ C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web\obj\Debug\
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web\obj\Debug\net5.0\MyAudiA4B7Forum.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web\obj\Debug\net5.0\Razor\Views\Categories\Category.cshtml.g.cs
+C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web\obj\Debug\net5.0\Razor\Views\Posts\Create.cshtml.g.cs
