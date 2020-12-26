@@ -275,6 +275,38 @@ namespace MyAudiA4B7Forum.Data.Migrations
                     b.ToTable("Settings");
                 });
 
+            modelBuilder.Entity("MyAudiA4B7Forum.Data.Models.Vote", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("ModifiedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("PostId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Type")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PostId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Votes");
+                });
+
             modelBuilder.Entity("MyAudiA4Forum.Data.Models.Category", b =>
                 {
                     b.Property<int>("Id")
@@ -342,6 +374,7 @@ namespace MyAudiA4B7Forum.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("UserId")
+                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
@@ -451,6 +484,25 @@ namespace MyAudiA4B7Forum.Data.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("MyAudiA4B7Forum.Data.Models.Vote", b =>
+                {
+                    b.HasOne("MyAudiA4Forum.Data.Models.Post", "Post")
+                        .WithMany()
+                        .HasForeignKey("PostId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("MyAudiA4B7Forum.Data.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Post");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("MyAudiA4Forum.Data.Models.Comment", b =>
                 {
                     b.HasOne("MyAudiA4Forum.Data.Models.Comment", "Parent")
@@ -465,7 +517,9 @@ namespace MyAudiA4B7Forum.Data.Migrations
 
                     b.HasOne("MyAudiA4B7Forum.Data.Models.ApplicationUser", "User")
                         .WithMany()
-                        .HasForeignKey("UserId");
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.Navigation("Parent");
 
