@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "y2h57Yb0iu4qD9FSOdSiILn9wk7NJNUGUQLmTYfRd1yD0/mioq9pSwFrWWxAciMfbp1N2Yfg3S7YpAz0Tb6yYA==",
+  "dgSpecHash": "uF+rjYCrFg+0LCDUBwPPG1ue58/KpRfLnMR0F3zfQqo5XTofnmjMVe+zN1LrEectmu/Xfu44P5Xv5OTX96Cj9A==",
   "success": true,
   "projectFilePath": "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Web\\MyAudiA4B7Forum.Web\\MyAudiA4B7Forum.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\baicv\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
+    "C:\\Users\\baicv\\.nuget\\packages\\anglesharp.css\\0.14.2\\anglesharp.css.0.14.2.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",
+    "C:\\Users\\baicv\\.nuget\\packages\\htmlsanitizer\\5.0.372\\htmlsanitizer.5.0.372.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.1\\microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",

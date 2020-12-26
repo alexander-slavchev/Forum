@@ -2,6 +2,7 @@
 {
     using MyAudiA4B7Forum.Data.Common.Models;
     using MyAudiA4B7Forum.Data.Models;
+    using System.ComponentModel.DataAnnotations;
 
     public class Comment : BaseDeletableModel<int>
     {
@@ -15,6 +16,7 @@
 
         public string Content { get; set; }
 
+        [Required]
         public string UserId { get; set; }
 
         public virtual ApplicationUser User { get; set; }
