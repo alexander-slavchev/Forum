@@ -504,4 +504,3 @@ C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web\obj\Debug\
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web\bin\Debug\net5.0\AngleSharp.dll
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web\bin\Debug\net5.0\AngleSharp.Css.dll
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web\bin\Debug\net5.0\HtmlSanitizer.dll
-C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web\obj\Debug\net5.0\Razor\Views\News\News.cshtml.g.cs

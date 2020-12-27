@@ -1,9 +1,9 @@
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Data\MyAudiA4B7Forum.Data.Common\bin\Debug\netstandard2.1\MyAudiA4B7Forum.Data.Common.deps.json
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Data\MyAudiA4B7Forum.Data.Common\bin\Debug\netstandard2.1\MyAudiA4B7Forum.Data.Common.dll
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Data\MyAudiA4B7Forum.Data.Common\bin\Debug\netstandard2.1\MyAudiA4B7Forum.Data.Common.pdb
-C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Data\MyAudiA4B7Forum.Data.Common\obj\Debug\netstandard2.1\MyAudiA4B7Forum.Data.Common.csprojAssemblyReference.cache
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Data\MyAudiA4B7Forum.Data.Common\obj\Debug\netstandard2.1\MyAudiA4B7Forum.Data.Common.AssemblyInfoInputs.cache
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Data\MyAudiA4B7Forum.Data.Common\obj\Debug\netstandard2.1\MyAudiA4B7Forum.Data.Common.AssemblyInfo.cs
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Data\MyAudiA4B7Forum.Data.Common\obj\Debug\netstandard2.1\MyAudiA4B7Forum.Data.Common.csproj.CoreCompileInputs.cache
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Data\MyAudiA4B7Forum.Data.Common\obj\Debug\netstandard2.1\MyAudiA4B7Forum.Data.Common.dll
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Data\MyAudiA4B7Forum.Data.Common\obj\Debug\netstandard2.1\MyAudiA4B7Forum.Data.Common.pdb
+C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Data\MyAudiA4B7Forum.Data.Common\obj\Debug\netstandard2.1\MyAudiA4B7Forum.Data.Common.csprojAssemblyReference.cache
