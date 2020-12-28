@@ -888,6 +888,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Azure.AI.AnomalyDetector": {
+              "target": "Package",
+              "version": "[3.0.0-preview.2, )"
+            },
             "BuildBundlerMinifier": {
               "target": "Package",
               "version": "[3.2.449, )"

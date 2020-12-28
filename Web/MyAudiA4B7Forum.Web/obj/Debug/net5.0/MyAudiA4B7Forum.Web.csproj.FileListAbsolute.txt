@@ -550,4 +550,6 @@ C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web\bin\Debug\
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web\bin\Debug\net5.0\System.Web.Http.dll
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web\obj\Debug\net5.0\MyAudiA4B7Forum.Web.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web\obj\Debug\net5.0\Razor\Views\ContactUs\Index.cshtml.g.cs
+C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web\obj\Debug\net5.0\Razor\Views\ContactUs\ContactUs.cshtml.g.cs
+C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web\bin\Debug\net5.0\Azure.AI.AnomalyDetector.dll
+C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web\bin\Debug\net5.0\Azure.Core.dll

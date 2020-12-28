@@ -21,13 +21,14 @@ namespace MyAudiA4B7Forum.Web.Controllers
             this.emailSender = emailSender;
         }
 
-        public IActionResult Index()
+        public IActionResult ContactUs()
         {
             return this.View();
         }
 
+
         [HttpGet]
-        public async Task<IActionResult> Index(ContactFormViewModel input)
+        public async Task<IActionResult> ContactUs(ContactFormViewModel input)
         {
             if (!this.ModelState.IsValid)
             {

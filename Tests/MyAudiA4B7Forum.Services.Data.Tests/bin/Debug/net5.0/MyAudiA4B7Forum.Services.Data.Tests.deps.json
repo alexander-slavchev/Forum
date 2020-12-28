@@ -21,6 +21,28 @@
           "MyAudiA4B7Forum.Services.Data.Tests.dll": {}
         }
       },
+      "AngleSharp/0.14.0": {
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AngleSharp.dll": {
+            "assemblyVersion": "0.14.0.0",
+            "fileVersion": "0.14.0.0"
+          }
+        }
+      },
+      "AngleSharp.Css/0.14.2": {
+        "dependencies": {
+          "AngleSharp": "0.14.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AngleSharp.Css.dll": {
+            "assemblyVersion": "0.14.2.0",
+            "fileVersion": "0.14.2.0"
+          }
+        }
+      },
       "AutoMapper/10.1.1": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
@@ -50,6 +72,61 @@
           "lib/netstandard1.5/Castle.Core.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.4.0.0"
+          }
+        }
+      },
+      "Hangfire.Core/1.7.18": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Hangfire.Core.dll": {
+            "assemblyVersion": "1.7.18.0",
+            "fileVersion": "1.7.18.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/ca/Hangfire.Core.resources.dll": {
+            "locale": "ca"
+          },
+          "lib/netstandard2.0/es/Hangfire.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fa/Hangfire.Core.resources.dll": {
+            "locale": "fa"
+          },
+          "lib/netstandard2.0/fr/Hangfire.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/nl/Hangfire.Core.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/netstandard2.0/pt-BR/Hangfire.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/pt-PT/Hangfire.Core.resources.dll": {
+            "locale": "pt-PT"
+          },
+          "lib/netstandard2.0/pt/Hangfire.Core.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/netstandard2.0/zh-TW/Hangfire.Core.resources.dll": {
+            "locale": "zh-TW"
+          },
+          "lib/netstandard2.0/zh/Hangfire.Core.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "HtmlSanitizer/5.0.372": {
+        "dependencies": {
+          "AngleSharp": "0.14.0",
+          "AngleSharp.Css": "0.14.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/HtmlSanitizer.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.372.0"
           }
         }
       },
@@ -466,7 +543,7 @@
       "Microsoft.IdentityModel.JsonWebTokens/5.6.0": {
         "dependencies": {
           "Microsoft.IdentityModel.Tokens": "5.6.0",
-          "Newtonsoft.Json": "10.0.1"
+          "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
@@ -498,7 +575,7 @@
       "Microsoft.IdentityModel.Protocols.OpenIdConnect/5.6.0": {
         "dependencies": {
           "Microsoft.IdentityModel.Protocols": "5.6.0",
-          "Newtonsoft.Json": "10.0.1",
+          "Newtonsoft.Json": "11.0.2",
           "System.IdentityModel.Tokens.Jwt": "5.6.0"
         },
         "runtime": {
@@ -511,7 +588,7 @@
       "Microsoft.IdentityModel.Tokens/5.6.0": {
         "dependencies": {
           "Microsoft.IdentityModel.Logging": "5.6.0",
-          "Newtonsoft.Json": "10.0.1",
+          "Newtonsoft.Json": "11.0.2",
           "System.Security.Cryptography.Cng": "4.5.0"
         },
         "runtime": {
@@ -633,7 +710,7 @@
       "Microsoft.TestPlatform.TestHost/16.8.3": {
         "dependencies": {
           "Microsoft.TestPlatform.ObjectModel": "16.8.3",
-          "Newtonsoft.Json": "10.0.1"
+          "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
           "lib/netcoreapp2.1/Microsoft.TestPlatform.CommunicationUtilities.dll": {
@@ -869,39 +946,11 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Newtonsoft.Json/10.0.1": {
-        "dependencies": {
-          "Microsoft.CSharp": "4.7.0",
-          "System.Collections": "4.3.0",
-          "System.ComponentModel.TypeConverter": "4.3.0",
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.Dynamic.Runtime": "4.3.0",
-          "System.Globalization": "4.3.0",
-          "System.IO": "4.3.0",
-          "System.Linq": "4.3.0",
-          "System.Linq.Expressions": "4.3.0",
-          "System.ObjectModel": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Extensions": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Extensions": "4.3.0",
-          "System.Runtime.Numerics": "4.3.0",
-          "System.Runtime.Serialization.Formatters": "4.3.0",
-          "System.Runtime.Serialization.Primitives": "4.3.0",
-          "System.Text.Encoding": "4.3.0",
-          "System.Text.Encoding.Extensions": "4.3.0",
-          "System.Text.RegularExpressions": "4.3.0",
-          "System.Threading": "4.3.0",
-          "System.Threading.Tasks": "4.3.0",
-          "System.Xml.ReaderWriter": "4.3.0",
-          "System.Xml.XDocument": "4.3.0",
-          "System.Xml.XmlDocument": "4.3.0"
-        },
+      "Newtonsoft.Json/11.0.2": {
         "runtime": {
-          "lib/netstandard1.3/Newtonsoft.Json.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.1.20720"
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
           }
         }
       },
@@ -1185,7 +1234,7 @@
         "dependencies": {
           "Microsoft.IdentityModel.JsonWebTokens": "5.6.0",
           "Microsoft.IdentityModel.Tokens": "5.6.0",
-          "Newtonsoft.Json": "10.0.1"
+          "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {
@@ -1887,6 +1936,17 @@
         }
       },
       "xunit.runner.visualstudio/2.4.3": {},
+      "ZendeskApi_v2/3.10.9": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ZendeskApi_v2.dll": {
+            "assemblyVersion": "3.10.9.0",
+            "fileVersion": "3.10.9.0"
+          }
+        }
+      },
       "MyAudiA4B7Forum.Common/1.0.0": {
         "runtime": {
           "MyAudiA4B7Forum.Common.dll": {}
@@ -1922,11 +1982,22 @@
           "MyAudiA4B7Forum.Data.Models.dll": {}
         }
       },
+      "MyAudiA4B7Forum.Services/1.0.0": {
+        "runtime": {
+          "MyAudiA4B7Forum.Services.dll": {}
+        }
+      },
       "MyAudiA4B7Forum.Services.Data/1.0.0": {
         "dependencies": {
+          "Hangfire.Core": "1.7.18",
+          "MyAudiA4B7Forum.Common": "1.0.0",
           "MyAudiA4B7Forum.Data.Common": "1.0.0",
           "MyAudiA4B7Forum.Data.Models": "1.0.0",
-          "MyAudiA4B7Forum.Services.Mapping": "1.0.0"
+          "MyAudiA4B7Forum.Services": "1.0.0",
+          "MyAudiA4B7Forum.Services.Mapping": "1.0.0",
+          "MyAudiA4B7Forum.Web.Infrastructure": "1.0.0",
+          "MyAudiA4B7Forum.Web.ViewModels": "1.0.0",
+          "ZendeskApi_v2": "3.10.9"
         },
         "runtime": {
           "MyAudiA4B7Forum.Services.Data.dll": {}
@@ -1939,6 +2010,23 @@
         "runtime": {
           "MyAudiA4B7Forum.Services.Mapping.dll": {}
         }
+      },
+      "MyAudiA4B7Forum.Web.Infrastructure/1.0.0": {
+        "runtime": {
+          "MyAudiA4B7Forum.Web.Infrastructure.dll": {}
+        }
+      },
+      "MyAudiA4B7Forum.Web.ViewModels/1.0.0": {
+        "dependencies": {
+          "HtmlSanitizer": "5.0.372",
+          "MyAudiA4B7Forum.Common": "1.0.0",
+          "MyAudiA4B7Forum.Data.Common": "1.0.0",
+          "MyAudiA4B7Forum.Data.Models": "1.0.0",
+          "MyAudiA4B7Forum.Services.Mapping": "1.0.0"
+        },
+        "runtime": {
+          "MyAudiA4B7Forum.Web.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -1947,6 +2035,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AngleSharp/0.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-34w9I7nyszfEYBY8g7T3B0AtWlOivNh+QoWc3KECRwbmcNyqWmb4huihtmpH2Ds7rIRRHMMPv9yfPBxxjBn03g==",
+      "path": "anglesharp/0.14.0",
+      "hashPath": "anglesharp.0.14.0.nupkg.sha512"
+    },
+    "AngleSharp.Css/0.14.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2USpPu9V/+1iBwHpanBsqr1eR+3vxKe19ZsnejbZfxNOadsMvUUkJ+0OjMsQmT0ExSW4vjCKXq9K/JWv0ie8JQ==",
+      "path": "anglesharp.css/0.14.2",
+      "hashPath": "anglesharp.css.0.14.2.nupkg.sha512"
     },
     "AutoMapper/10.1.1": {
       "type": "package",
@@ -1961,6 +2063,20 @@
       "sha512": "sha512-b5rRL5zeaau1y/5hIbI+6mGw3cwun16YjkHZnV9RRT5UyUIFsgLmNXJ0YnIN9p8Hw7K7AbG1q1UclQVU3DinAQ==",
       "path": "castle.core/4.4.0",
       "hashPath": "castle.core.4.4.0.nupkg.sha512"
+    },
+    "Hangfire.Core/1.7.18": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ka/QWgqlQBxKdq8kpQ943gA1KH5l0KqO0n53oKMZGYqHRBh3h39lZWIlA7JTpvN34v6Osd5eyU64xuvt0lgRoQ==",
+      "path": "hangfire.core/1.7.18",
+      "hashPath": "hangfire.core.1.7.18.nupkg.sha512"
+    },
+    "HtmlSanitizer/5.0.372": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rk6siqO7S1m2dHttEQ8w2sTCEF5HWa5gU/bq8Z2zPALJtstMa9zSYwvuzE5ag2Hndj57Bn5iNAaYGih+EUkqRQ==",
+      "path": "htmlsanitizer/5.0.372",
+      "hashPath": "htmlsanitizer.5.0.372.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/5.0.1": {
       "type": "package",
@@ -2291,12 +2407,12 @@
       "path": "netstandard.library/1.6.1",
       "hashPath": "netstandard.library.1.6.1.nupkg.sha512"
     },
-    "Newtonsoft.Json/10.0.1": {
+    "Newtonsoft.Json/11.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
-      "path": "newtonsoft.json/10.0.1",
-      "hashPath": "newtonsoft.json.10.0.1.nupkg.sha512"
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
     },
     "NuGet.Frameworks/5.0.0": {
       "type": "package",
@@ -3061,6 +3177,13 @@
       "path": "xunit.runner.visualstudio/2.4.3",
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
     },
+    "ZendeskApi_v2/3.10.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3NjDI0ZLY43kEGTJ54G9hv6Ujoxht7Lb5asFwpHXUcLgsbsTC22Zx1vrUkpZWnqczQjM9Z7X+c4AVodxjk+mPw==",
+      "path": "zendeskapi_v2/3.10.9",
+      "hashPath": "zendeskapi_v2.3.10.9.nupkg.sha512"
+    },
     "MyAudiA4B7Forum.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -3081,12 +3204,27 @@
       "serviceable": false,
       "sha512": ""
     },
+    "MyAudiA4B7Forum.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "MyAudiA4B7Forum.Services.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "MyAudiA4B7Forum.Services.Mapping/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyAudiA4B7Forum.Web.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyAudiA4B7Forum.Web.ViewModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
