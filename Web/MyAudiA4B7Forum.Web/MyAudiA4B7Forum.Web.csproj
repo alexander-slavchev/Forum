@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <PackageReference Include="HtmlSanitizer" Version="5.0.372" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Tools" Version="1.1.0-preview4-final" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.1">
       <PrivateAssets>all</PrivateAssets>
@@ -51,5 +52,9 @@
     <ProjectReference Include="..\..\Services\MyAudiA4B7Forum.Services\MyAudiA4B7Forum.Services.csproj" />
     <ProjectReference Include="..\MyAudiA4B7Forum.Web.Infrastructure\MyAudiA4B7Forum.Web.Infrastructure.csproj" />
     <ProjectReference Include="..\MyAudiA4B7Forum.Web.ViewModels\MyAudiA4B7Forum.Web.ViewModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\ContactUs\" />
   </ItemGroup>
 </Project>

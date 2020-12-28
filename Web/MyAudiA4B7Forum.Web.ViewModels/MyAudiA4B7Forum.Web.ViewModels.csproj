@@ -20,8 +20,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Data\MyAudiA4B7Forum.Data.Common\MyAudiA4B7Forum.Data.Common.csproj" />
     <ProjectReference Include="..\..\Data\MyAudiA4B7Forum.Data.Models\MyAudiA4B7Forum.Data.Models.csproj" />
+    <ProjectReference Include="..\..\MyAudiA4B7Forum.Common\MyAudiA4B7Forum.Common.csproj" />
     <ProjectReference Include="..\..\Services\MyAudiA4B7Forum.Services.Mapping\MyAudiA4B7Forum.Services.Mapping.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ContactUs\" />
   </ItemGroup>
 
 </Project>

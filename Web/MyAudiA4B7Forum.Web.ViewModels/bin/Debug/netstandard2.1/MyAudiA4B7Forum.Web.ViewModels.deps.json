@@ -10,6 +10,8 @@
       "MyAudiA4B7Forum.Web.ViewModels/1.0.0": {
         "dependencies": {
           "HtmlSanitizer": "5.0.372",
+          "MyAudiA4B7Forum.Common": "1.0.0",
+          "MyAudiA4B7Forum.Data.Common": "1.0.0",
           "MyAudiA4B7Forum.Data.Models": "1.0.0",
           "MyAudiA4B7Forum.Services.Mapping": "1.0.0",
           "StyleCop.Analyzers": "1.2.0-beta.312"
@@ -359,6 +361,11 @@
           }
         }
       },
+      "MyAudiA4B7Forum.Common/1.0.0": {
+        "runtime": {
+          "MyAudiA4B7Forum.Common.dll": {}
+        }
+      },
       "MyAudiA4B7Forum.Data.Common/1.0.0": {
         "dependencies": {
           "System.ComponentModel.Annotations": "5.0.0"
@@ -629,6 +636,11 @@
       "sha512": "sha512-S0wEUiKcLvRlkFUXca8uio1UQ5bYQzYgOmOKtCqaBQC3GR9AJjh43otcM32IGsAyvadFTaAMw9Irm6dS4Evfng==",
       "path": "system.text.encoding.codepages/4.5.0",
       "hashPath": "system.text.encoding.codepages.4.5.0.nupkg.sha512"
+    },
+    "MyAudiA4B7Forum.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "MyAudiA4B7Forum.Data.Common/1.0.0": {
       "type": "project",

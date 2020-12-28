@@ -14,3 +14,5 @@ C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web.ViewModels
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web.ViewModels\obj\Debug\netstandard2.1\MyAudiA4B7Forum.Web.ViewModels.csproj.CopyComplete
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web.ViewModels\obj\Debug\netstandard2.1\MyAudiA4B7Forum.Web.ViewModels.dll
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web.ViewModels\obj\Debug\netstandard2.1\MyAudiA4B7Forum.Web.ViewModels.pdb
+C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web.ViewModels\bin\Debug\netstandard2.1\MyAudiA4B7Forum.Common.dll
+C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Web\MyAudiA4B7Forum.Web.ViewModels\bin\Debug\netstandard2.1\MyAudiA4B7Forum.Common.pdb

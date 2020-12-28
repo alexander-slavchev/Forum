@@ -14,3 +14,11 @@ C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Services\MyAudiA4B7Forum.Services.
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Services\MyAudiA4B7Forum.Services.Data\obj\Debug\netstandard2.1\MyAudiA4B7Forum.Services.Data.csproj.CopyComplete
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Services\MyAudiA4B7Forum.Services.Data\obj\Debug\netstandard2.1\MyAudiA4B7Forum.Services.Data.dll
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Services\MyAudiA4B7Forum.Services.Data\obj\Debug\netstandard2.1\MyAudiA4B7Forum.Services.Data.pdb
+C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Services\MyAudiA4B7Forum.Services.Data\bin\Debug\netstandard2.1\MyAudiA4B7Forum.Common.dll
+C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Services\MyAudiA4B7Forum.Services.Data\bin\Debug\netstandard2.1\MyAudiA4B7Forum.Services.dll
+C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Services\MyAudiA4B7Forum.Services.Data\bin\Debug\netstandard2.1\MyAudiA4B7Forum.Web.Infrastructure.dll
+C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Services\MyAudiA4B7Forum.Services.Data\bin\Debug\netstandard2.1\MyAudiA4B7Forum.Web.ViewModels.dll
+C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Services\MyAudiA4B7Forum.Services.Data\bin\Debug\netstandard2.1\MyAudiA4B7Forum.Common.pdb
+C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Services\MyAudiA4B7Forum.Services.Data\bin\Debug\netstandard2.1\MyAudiA4B7Forum.Web.Infrastructure.pdb
+C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Services\MyAudiA4B7Forum.Services.Data\bin\Debug\netstandard2.1\MyAudiA4B7Forum.Web.ViewModels.pdb
+C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Services\MyAudiA4B7Forum.Services.Data\bin\Debug\netstandard2.1\MyAudiA4B7Forum.Services.pdb

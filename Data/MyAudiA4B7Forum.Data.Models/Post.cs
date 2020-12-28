@@ -13,8 +13,11 @@
             this.Votes = new HashSet<Vote>();
         }
 
+        [MinLength(5)]
         public string Title { get; set; }
 
+        [MaxLength(10000)]
+        [MinLength(10)]
         public string Content { get; set; }
 
         [Required]

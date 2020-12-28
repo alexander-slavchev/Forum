@@ -1,7 +1,6 @@
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Services\MyAudiA4B7Forum.Services.Mapping\bin\Debug\netstandard2.1\MyAudiA4B7Forum.Services.Mapping.deps.json
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Services\MyAudiA4B7Forum.Services.Mapping\bin\Debug\netstandard2.1\MyAudiA4B7Forum.Services.Mapping.dll
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Services\MyAudiA4B7Forum.Services.Mapping\bin\Debug\netstandard2.1\MyAudiA4B7Forum.Services.Mapping.pdb
-C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Services\MyAudiA4B7Forum.Services.Mapping\obj\Debug\netstandard2.1\MyAudiA4B7Forum.Services.Mapping.csprojAssemblyReference.cache
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Services\MyAudiA4B7Forum.Services.Mapping\obj\Debug\netstandard2.1\MyAudiA4B7Forum.Services.Mapping.AssemblyInfoInputs.cache
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Services\MyAudiA4B7Forum.Services.Mapping\obj\Debug\netstandard2.1\MyAudiA4B7Forum.Services.Mapping.AssemblyInfo.cs
 C:\Users\baicv\OneDrive\Desktop\MyAudiA4Forum\Services\MyAudiA4B7Forum.Services.Mapping\obj\Debug\netstandard2.1\MyAudiA4B7Forum.Services.Mapping.csproj.CoreCompileInputs.cache

@@ -6,6 +6,7 @@
 
     public class Comment : BaseDeletableModel<int>
     {
+        [Required]
         public int PostId { get; set; }
 
         public virtual Post Post { get; set; }
@@ -13,7 +14,8 @@
         public int? ParentId { get; set; }
 
         public virtual Comment Parent { get; set; }
-
+        [MinLength(3)]
+        [MaxLength(10000)]
         public string Content { get; set; }
 
         [Required]

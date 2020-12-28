@@ -35,9 +35,7 @@
 
         public DbSet<Vote> Votes { get; set; }
 
-        public DbSet<News> News { get; set; }
-
-        public DbSet<Gallery> Gallery { get; set; }
+        public DbSet<ContactUs> ContactUs { get; set; }
 
         public override int SaveChanges() => this.SaveChanges(true);
 

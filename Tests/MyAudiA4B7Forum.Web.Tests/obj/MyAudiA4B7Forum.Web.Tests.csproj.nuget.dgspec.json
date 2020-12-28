@@ -328,8 +328,20 @@
               "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Data\\MyAudiA4B7Forum.Data.Models\\MyAudiA4B7Forum.Data.Models.csproj": {
                 "projectPath": "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Data\\MyAudiA4B7Forum.Data.Models\\MyAudiA4B7Forum.Data.Models.csproj"
               },
+              "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\MyAudiA4B7Forum.Common\\MyAudiA4B7Forum.Common.csproj": {
+                "projectPath": "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\MyAudiA4B7Forum.Common\\MyAudiA4B7Forum.Common.csproj"
+              },
               "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Services\\MyAudiA4B7Forum.Services.Mapping\\MyAudiA4B7Forum.Services.Mapping.csproj": {
                 "projectPath": "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Services\\MyAudiA4B7Forum.Services.Mapping\\MyAudiA4B7Forum.Services.Mapping.csproj"
+              },
+              "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Services\\MyAudiA4B7Forum.Services\\MyAudiA4B7Forum.Services.csproj": {
+                "projectPath": "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Services\\MyAudiA4B7Forum.Services\\MyAudiA4B7Forum.Services.csproj"
+              },
+              "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Web\\MyAudiA4B7Forum.Web.Infrastructure\\MyAudiA4B7Forum.Web.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Web\\MyAudiA4B7Forum.Web.Infrastructure\\MyAudiA4B7Forum.Web.Infrastructure.csproj"
+              },
+              "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Web\\MyAudiA4B7Forum.Web.ViewModels\\MyAudiA4B7Forum.Web.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Web\\MyAudiA4B7Forum.Web.ViewModels\\MyAudiA4B7Forum.Web.ViewModels.csproj"
               }
             }
           }
@@ -757,8 +769,14 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
+              "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Data\\MyAudiA4B7Forum.Data.Common\\MyAudiA4B7Forum.Data.Common.csproj": {
+                "projectPath": "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Data\\MyAudiA4B7Forum.Data.Common\\MyAudiA4B7Forum.Data.Common.csproj"
+              },
               "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Data\\MyAudiA4B7Forum.Data.Models\\MyAudiA4B7Forum.Data.Models.csproj": {
                 "projectPath": "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Data\\MyAudiA4B7Forum.Data.Models\\MyAudiA4B7Forum.Data.Models.csproj"
+              },
+              "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\MyAudiA4B7Forum.Common\\MyAudiA4B7Forum.Common.csproj": {
+                "projectPath": "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\MyAudiA4B7Forum.Common\\MyAudiA4B7Forum.Common.csproj"
               },
               "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Services\\MyAudiA4B7Forum.Services.Mapping\\MyAudiA4B7Forum.Services.Mapping.csproj": {
                 "projectPath": "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Services\\MyAudiA4B7Forum.Services.Mapping\\MyAudiA4B7Forum.Services.Mapping.csproj"
@@ -877,6 +895,10 @@
             "HtmlSanitizer": {
               "target": "Package",
               "version": "[5.0.372, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
             },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",

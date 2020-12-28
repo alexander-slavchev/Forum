@@ -13,15 +13,21 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Hangfire.Core" Version="1.7.18" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.312" PrivateAssets="all">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="ZendeskApi_v2" Version="3.10.9" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\Data\MyAudiA4B7Forum.Data.Common\MyAudiA4B7Forum.Data.Common.csproj" />
     <ProjectReference Include="..\..\Data\MyAudiA4B7Forum.Data.Models\MyAudiA4B7Forum.Data.Models.csproj" />
+    <ProjectReference Include="..\..\MyAudiA4B7Forum.Common\MyAudiA4B7Forum.Common.csproj" />
+    <ProjectReference Include="..\..\Web\MyAudiA4B7Forum.Web.Infrastructure\MyAudiA4B7Forum.Web.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Web\MyAudiA4B7Forum.Web.ViewModels\MyAudiA4B7Forum.Web.ViewModels.csproj" />
     <ProjectReference Include="..\MyAudiA4B7Forum.Services.Mapping\MyAudiA4B7Forum.Services.Mapping.csproj" />
+    <ProjectReference Include="..\MyAudiA4B7Forum.Services\MyAudiA4B7Forum.Services.csproj" />
   </ItemGroup>
 
 </Project>

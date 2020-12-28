@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "4qKDBbS5q+QLCCFcZq1WvWBxnyl5s0iPAVM1wpqE8Kz/Q9pyt+n8sJFDAdKD1d9vpFAL3f22oDJJbGxvFAUPwg==",
+  "dgSpecHash": "Dd69XA4ezZ3GwRmb9DygiyC4V0bS68G3OK9VjTTuVJJzPpZuj+qPTneA2HxSDfn8yl3ljemcSK9xCUI+vixV0Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Tests\\Sandbox\\Sandbox.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\baicv\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
+    "C:\\Users\\baicv\\.nuget\\packages\\anglesharp.css\\0.14.2\\anglesharp.css.0.14.2.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\commandlineparser\\2.8.0\\commandlineparser.2.8.0.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\hangfire.core\\1.7.18\\hangfire.core.1.7.18.nupkg.sha512",
+    "C:\\Users\\baicv\\.nuget\\packages\\htmlsanitizer\\5.0.372\\htmlsanitizer.5.0.372.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.1\\microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.1\\microsoft.aspnetcore.cryptography.keyderivation.5.0.1.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.1\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.1.nupkg.sha512",
