@@ -9,6 +9,7 @@ namespace MyAudiA4B7Forum.Data.Models
 {
     public class Vote : BaseModel<int>
     {
+        [Required]
         public int PostId { get; set; }
 
         public virtual Post Post { get; set; }

@@ -27,7 +27,7 @@ namespace MyAudiA4B7Forum.Services.Data
         public async Task VoteAsync(int postId, string userId, bool isUp)
         {
             var vote = this.votesRepository.All()
-                .FirstOrDefault(x => x.Post.Id == postId && x.User.Id == userId);
+                .FirstOrDefault(x => x.PostId == postId && x.UserId == userId);
             if (vote != null)
             {
                 vote.Type = isUp ? VoteType.UpVote : VoteType.DownVote;

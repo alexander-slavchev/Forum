@@ -37,6 +37,7 @@
 
         public DbSet<ContactUs> ContactUs { get; set; }
 
+
         public override int SaveChanges() => this.SaveChanges(true);
 
         public override int SaveChanges(bool acceptAllChangesOnSuccess)

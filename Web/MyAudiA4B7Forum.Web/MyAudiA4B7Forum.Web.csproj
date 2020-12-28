@@ -53,8 +53,4 @@
     <ProjectReference Include="..\MyAudiA4B7Forum.Web.Infrastructure\MyAudiA4B7Forum.Web.Infrastructure.csproj" />
     <ProjectReference Include="..\MyAudiA4B7Forum.Web.ViewModels\MyAudiA4B7Forum.Web.ViewModels.csproj" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Views\ContactUs\" />
-  </ItemGroup>
 </Project>

@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <CodeAnalysisRuleSet>..\Rules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>..\Data\MyAudiA4B7Forum.Data.Models\News.cs</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
     <AdditionalFiles Include="..\stylecop.json" />

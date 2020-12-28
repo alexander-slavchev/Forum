@@ -1,0 +1,90 @@
+﻿@*@model MyAudiA4B7Forum.Web.ViewModels.ContactFormViewModel
+@{
+    ViewData["Title"] = "Contact Us";
+}
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<div>
+    <div class="col-md-6">
+        <div>
+            @if (ViewBag.Message == null)
+            {
+                <div>
+                    <form method="post">
+                        <div class="form-group">
+                            <label asp-for="Name">Name</label>
+                            <input asp-for="Name" class="form-control" />
+                            <span asp-validation-for="Name"
+                                  class="text-muted"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Email">Email</label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email"
+                                  class="text-muted"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Subject">Subject</label>
+                            <input asp-for="Subject" class="form-control" />
+                            <span asp-validation-for="Subject"
+                                  class="text-muted"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Content">Message</label>
+                            <textarea rows="5" cols="15"
+                                      asp-for="Content" class="form-control"></textarea>
+                            <span asp-validation-for="Content"
+                                  class="text-muted"></span>
+                        </div>
+                        <div>
+                            <button type="submit"
+                                    class="btn btn-success">
+                                Send
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+            }
+        </div>
+
+        <div>
+            <div>
+                @if (ViewBag.Message != null)
+                {
+                    <div>@ViewBag.Message</div>
+
+
+                }
+            </div>
+        </div>
+    </div>
+
+</div>*@
+
+@model MyAudiA4B7Forum.Web.ViewModels.ContactFormViewModel
+<h1> Add new </h1>
+
+<form method="post">
+      <div class="form-group">
+          <label asp-for="Name"></label>
+          <input asp-for="Name" class="form-control"/>
+          <span asp-validation-for="Name" class="text-danger"></span>
+      </div>
+      <div class="form-group">
+          <label asp-for="Email"></label>
+          <input asp-for="Email" class="form-control" />
+          <span asp-validation-for="Email" class="text-danger"></span>
+      </div>
+      <div class="form-group">
+          <label asp-for="Subject"></label>
+          <input asp-for="Subject" class="form-control" />
+          <span asp-validation-for="Subject" class="text-danger"></span>
+      </div>
+      <div class="form-group">
+          <label asp-for="Content"></label>
+          <input asp-for="Content" class="form-control" />
+          <span asp-validation-for="Content" class="text-danger"></span>
+      </div>
+</form>

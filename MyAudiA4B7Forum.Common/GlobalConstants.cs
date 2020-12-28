@@ -2,6 +2,8 @@
 {
     public static class GlobalConstants
     {
+        public const string SystemDisplayName = "MyAudiA4B7Forum";
+
         public const string SystemName = "MyAudiA4B7Forum";
 
         public const string AdministratorRoleName = "Administrator";

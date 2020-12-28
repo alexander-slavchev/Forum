@@ -26,8 +26,4 @@
     <ProjectReference Include="..\..\Services\MyAudiA4B7Forum.Services.Mapping\MyAudiA4B7Forum.Services.Mapping.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="ContactUs\" />
-  </ItemGroup>
-
 </Project>

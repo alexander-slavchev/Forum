@@ -3562,9 +3562,13 @@
       "MyAudiA4B7Forum.Services.Data/1.0.0": {
         "dependencies": {
           "Hangfire.Core": "1.7.18",
+          "MyAudiA4B7Forum.Common": "1.0.0",
           "MyAudiA4B7Forum.Data.Common": "1.0.0",
           "MyAudiA4B7Forum.Data.Models": "1.0.0",
+          "MyAudiA4B7Forum.Services": "1.0.0",
           "MyAudiA4B7Forum.Services.Mapping": "1.0.0",
+          "MyAudiA4B7Forum.Web.Infrastructure": "1.0.0",
+          "MyAudiA4B7Forum.Web.ViewModels": "1.0.0",
           "ZendeskApi_v2": "3.10.9"
         },
         "runtime": {
@@ -3607,6 +3611,8 @@
       "MyAudiA4B7Forum.Web.ViewModels/1.0.0": {
         "dependencies": {
           "HtmlSanitizer": "5.0.372",
+          "MyAudiA4B7Forum.Common": "1.0.0",
+          "MyAudiA4B7Forum.Data.Common": "1.0.0",
           "MyAudiA4B7Forum.Data.Models": "1.0.0",
           "MyAudiA4B7Forum.Services.Mapping": "1.0.0"
         },

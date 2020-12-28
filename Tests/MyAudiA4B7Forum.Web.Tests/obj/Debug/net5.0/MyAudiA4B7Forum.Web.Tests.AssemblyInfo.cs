@@ -13,7 +13,7 @@ using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MyAudiA4B7Forum.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Data\\MyAudiA4B7Forum.Data", "MyAudiA4B7Forum.Data.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MyAudiA4B7Forum.Web", "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Web\\MyAudiA4B7Forum.Web", "MyAudiA4B7Forum.Web.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MyAudiA4B7Forum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Web\\MyAudiA4B7Forum.Web", "MyAudiA4B7Forum.Web.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyAudiA4B7Forum.Web.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

@@ -8,7 +8,7 @@
 
     public class CategoriesController : Controller
     {
-        private const int ItemsPerPage = 3;
+        private const int ItemsPerPage = 50;
         private readonly ICategoriesService categoriesService;
         private readonly IPostService postService;
         private readonly IHttpContextAccessor http;

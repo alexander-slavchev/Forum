@@ -25,6 +25,7 @@
 
         public virtual ApplicationUser User { get; set; }
 
+        [Required]
         public int CategoryId { get; set; }
 
         public virtual Category Category { get; set; }

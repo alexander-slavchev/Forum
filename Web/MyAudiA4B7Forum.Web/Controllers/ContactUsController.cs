@@ -1,13 +1,15 @@
-﻿namespace MyAudiA4B7Forum.Web.Controllers
+﻿using Microsoft.AspNetCore.Identity.UI.Services;
+using Microsoft.AspNetCore.Mvc;
+using MyAudiA4B7Forum.Common;
+using MyAudiA4B7Forum.Services.Data;
+using MyAudiA4B7Forum.Web.ViewModels;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace MyAudiA4B7Forum.Web.Controllers
 {
-    using System.Threading.Tasks;
-
-    using Microsoft.AspNetCore.Identity.UI.Services;
-    using Microsoft.AspNetCore.Mvc;
-    using MyAudiA4B7Forum.Common;
-    using MyAudiA4B7Forum.Services.Data;
-    using MyAudiA4B7Forum.Web.ViewModels;
-
     public class ContactUsController : BaseController
     {
         private readonly IContactUsService contactFormService;
@@ -24,7 +26,7 @@
             return this.View();
         }
 
-        [HttpPost]
+        [HttpGet]
         public async Task<IActionResult> Index(ContactFormViewModel input)
         {
             if (!this.ModelState.IsValid)
@@ -36,11 +38,11 @@
 
             if (result)
             {
-                    await this.emailSender.SendEmailAsync(
-                    input.Email,
-                    input.Name,
-                    input.Subject ?? GlobalConstants.ConstSubject
-                    );
+                await this.emailSender.SendEmailAsync(
+                input.Email,
+                input.Name,
+                input.Subject ?? GlobalConstants.ConstSubject
+                );
 
                 this.TempData["InfoMessage"] = "Thank you for your email!";
             }
