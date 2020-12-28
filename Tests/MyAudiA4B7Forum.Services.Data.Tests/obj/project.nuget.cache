@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "PJAT8JK2tSV+PFKwUoZia06EQ2uDg9qgsYJZ7A/pOSpmIZOTDf2PubVfq3nQcDd4cmATSMJ4gIJW9f2HJqr9zQ==",
+  "dgSpecHash": "NXsFmWhps6F6FbsMizUntaDfTIiG3A5bKxtmgyDadb1cNaYYZzRD7J8pK2R3akF5/IPIfO/J7jpUZhu3zCdXRQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Tests\\MyAudiA4B7Forum.Services.Data.Tests\\MyAudiA4B7Forum.Services.Data.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\baicv\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
+    "C:\\Users\\baicv\\.nuget\\packages\\hangfire.core\\1.7.18\\hangfire.core.1.7.18.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.1\\microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.1\\microsoft.aspnetcore.cryptography.keyderivation.5.0.1.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.1\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.1.nupkg.sha512",
@@ -53,7 +54,7 @@
     "C:\\Users\\baicv\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\moq\\4.15.2\\moq.4.15.2.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
-    "C:\\Users\\baicv\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\baicv\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -162,7 +163,8 @@
     "C:\\Users\\baicv\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
-    "C:\\Users\\baicv\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
+    "C:\\Users\\baicv\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512",
+    "C:\\Users\\baicv\\.nuget\\packages\\zendeskapi_v2\\3.10.9\\zendeskapi_v2.3.10.9.nupkg.sha512"
   ],
   "logs": []
 }

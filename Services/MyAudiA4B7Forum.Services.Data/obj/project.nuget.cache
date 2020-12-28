@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "It4+irIuEjV711Iq2jtqZ6ohgIV6DGbbJAZwK5XpLPfL1tDGdJuAupO4RVWGZjdN5M3Ecj6GT9II/LS9LrkkJg==",
+  "dgSpecHash": "KGODVmTz7hSiU/A0nruQgDYheN1Hcr0GCIYzs79rSuJjT3JoEqip6NvFbikJiuST3/l43N5BmiE+BtYtSym8Mg==",
   "success": true,
   "projectFilePath": "C:\\Users\\baicv\\OneDrive\\Desktop\\MyAudiA4Forum\\Services\\MyAudiA4B7Forum.Services.Data\\MyAudiA4B7Forum.Services.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\baicv\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\baicv\\.nuget\\packages\\hangfire.core\\1.7.18\\hangfire.core.1.7.18.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.1\\microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.1\\microsoft.aspnetcore.cryptography.keyderivation.5.0.1.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.1\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.1.nupkg.sha512",
@@ -24,6 +25,7 @@
     "C:\\Users\\baicv\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\baicv\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
@@ -33,7 +35,8 @@
     "C:\\Users\\baicv\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
     "C:\\Users\\baicv\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
-    "C:\\Users\\baicv\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    "C:\\Users\\baicv\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\baicv\\.nuget\\packages\\zendeskapi_v2\\3.10.9\\zendeskapi_v2.3.10.9.nupkg.sha512"
   ],
   "logs": []
 }

@@ -186,11 +186,19 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "dependencies": {
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.7.18, )"
+            },
             "StyleCop.Analyzers": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
               "version": "[1.2.0-beta.312, )"
+            },
+            "ZendeskApi_v2": {
+              "target": "Package",
+              "version": "[3.10.9, )"
             }
           },
           "imports": [
